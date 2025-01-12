@@ -264,7 +264,7 @@ textarea {
 }
 
 footer {
-    height: 200px;
+    height: 220px;
     width: 100vw;
     box-sizing: border-box;
     background-color: #f04350;
@@ -302,7 +302,22 @@ footer {
     height: 20px;
     width: 280px;
     font-size: 0.7rem;
-    margin-top: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMidia nav:nth-child(3) strong {
+    align-self: center;
+    margin-top: 15px;
+}
+
+.socialMidia nav:nth-child(3) strong a {
+    text-decoration: none;
+    color: white;
+}
+.socialMidia nav:nth-child(3) a:hover {
+    color: orange;
 }
 
 .socialMidia .icons nav a .fa-brands:hover {
